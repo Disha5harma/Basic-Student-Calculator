@@ -8,7 +8,7 @@ body{
 #container{
     width: 1000px;
     height: 550px;
-    background-image: url(IMG1.jpg);
+    background-color: blue;
     margin: 20px auto;
 }
 
@@ -29,10 +29,13 @@ body{
     font-size: 10px;
     background-color: aquamarine;
     text-align: right;
+    text-emphasis-color: yellow;
 }
 #output{
     height: 60px;
     text-align: right;
+    text-decoration-color: black;
+    font-size: 30px;
 }
 #result{
     height: 120px;
@@ -49,8 +52,10 @@ body{
     border-radius: 50%;
     background-color: blueviolet;
     border-width: 0;
-    font-size: 30px;
     font-weight: bold;
+}
+.operator:active, .number:active{
+	font-size: 13px;
 }
 .number,.empty{
     background-color: aliceblue;
